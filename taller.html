@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarrasVal</title>
+    <link rel="stylesheet" href="estil.css">
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/logotipo.png" id="logoHeader" alt=""></a>
+        <h1>GUITARRASVAL</h1>
+        <div>
+            <a href="#"><img src="img/carro.png" alt=""></a>
+            <a href="#"><img src="img/perfil.png" alt=""></a>
+            <a href="#"><img src="img/castellano.png" alt=""></a>
+            <a href="#"><img src="img/valencia.png" alt=""></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio | </a></li>
+                <li><a href="comprar.html">Comprar | </a></li>
+                <li><a href="alquiler.html">Alquiler | </a></li>
+                <li><a href="taller.html">Taller Reparación </a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+
+        <div class="vertical">
+            <img src="img/guitarres/taller/2.png" alt="1">
+            <img src="img/guitarres/taller/3.png" alt="2">
+            <img src="img/guitarres/taller/4.png" alt="3">
+        </div>
+        <div id="fotoFondo">
+            <div id="contenedorOpacity2"></div>
+            <article id="taller">
+                <h2>SERVICIO DE REPARACIÓN</h2>
+                <p>
+                    En GuitarrasVal ofrecemos un servicio de reparación de guitarras y bajos de todo tipo.
+                    Nuestro taller está equipado con las herramientas y materiales necesarios para realizar
+                    cualquier tipo de reparación.
+                </p>
+                <p>
+                    Nuestro equipo de profesionales está formado por luthiers con una amplia experiencia en
+                    el sector de la reparación de instrumentos de cuerda.
+                </p>
+                <p>
+                    Si tienes cualquier problema con tu guitarra o bajo, no dudes en contactar con nosotros.
+                    Te ofreceremos un presupuesto sin compromiso.
+                </p>
+            </article>
+        </div>
+
+
+        <article>
+            <form action="">
+                <fieldset>
+                    <h4>DATOS GUITARRA</h4> <br>
+
+
+                    <input type="text" placeholder="Marca"><br>
+                    <input type="text" placeholder="Modelo"><br>
+                    <input type="text" placeholder="Año"><br><br>
+
+
+                    <label>Por favor selecciona el daño que hay que reparar</label><br>
+                    <input type="checkbox" id="cuerdas" name="cuerdas" value="cuerdasv">
+                    <label for="cuerdas"> Cambio de cuerdas</label><br>
+                    <input type="checkbox" id="cuello" name="cuello" value="cuello">
+                    <label for="cuello"> El cuello</label><br>
+                    <input type="checkbox" id="puente" name="puente" value="puente">
+                    <label for="puente"> El puente</label><br>
+                    <input type="checkbox" id="selleta" name="selleta" value="selleta">
+                    <label for="selleta"> La selleta</label><br>
+                    <input type="checkbox" id="Conector" name="Conector" value="Conector">
+                    <label for="Conector"> Conector</label><br>
+                    <input type="checkbox" id="clavija" name="clavija" value="clavija">
+                    <label for="clavija"> La clavija</label><br>
+                    <input type="checkbox" id="Otro" name="Otro" value="Otro">
+                    <label for="Otro"> Otro</label><br><br>
+
+
+                    <label>Si has elegido la opción "Otro" por favor describa el daño</label><br><br>
+                    <input type="text" placeholder="Descripción del daño">
+
+
+                </fieldset>
+
+
+                <fieldset>
+                    <h4>DATOS PERSONALES</h4><br>
+                    <input type="text" placeholder="Nombre"><br>
+                    <input type="text" placeholder="Apellidos"><br>
+                    <input type="text" placeholder="Teléfono"><br>
+                    <input type="text" placeholder="Correo electrónico">
+                </fieldset>
+
+
+                <fieldset>
+                    <h4>DATOS DEJAR/RECOGIDA</h4><br>
+
+
+                    <label> Hay varias opciones para dejar/recoger el instrumento en la tienda, porfavor elija una
+                        opción para la recogida y otra para la entrega</label><br><br>
+
+
+                    <label><h5>DEJAR</h5></label>
+
+                    <input type="checkbox" id="pasar" name="pasar" value="pasar">
+                    <label for="pasar"> Pasaré por la tienda y dejaré yo en persona el instrumento</label>
+                    <br>
+                    <input type="checkbox" id="npasar" name="npasar" value="npasar">
+                    <label for="npasar"> Pasais a recoger vosotros el instrumento </label><br> <br>
+
+
+                    <label><h5>RECOGER</h5></label>
+
+                    <input type="checkbox" id="ir" name="ir" value="ir">
+                    <label for="ir"> Pasaré por la tienda y recogeré yo en persona el instrumento</label>
+                    <br>
+                    <input type="checkbox" id="nir" name="nir" value="nir">
+                    <label for="nir"> Pasais a dejar vosotros el instrumento </label><br><br>
+
+
+                    <label>Si has elegido en dejar y/o recoger el instrumento que pasemos a recogerlo/entregarlo
+                        nosotros, porfavor rellene la información adicional</label><br><br>
+
+                    <input type="text" placeholder="Dirección"><br>
+                    <input type="text" placeholder="Ciudad"><br>
+                    <input type="text" placeholder="Código postal"><br>
+                    <input type="text" placeholder="Horario que te vendría bien"><br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+                
+            </form>
+        </article>
+        <article id="contacto">
+            <h2> COMO CONTACTARNOS Y DONDE NOS ENCONTRAMOS</h2>
+            <p>
+                <b>Horario de atención al público:</b> <br>
+                Lunes a Viernes: 10:00 - 14:00 y 17:00 - 20:00 <br>
+                Sábados: 10:00 - 14:00 <br>
+                Domingos: Cerrado <br>
+            </p>
+            <p>
+                <!-- telefono e email -->
+                <b>Teléfono:</b> 666 666 666 <br>
+                <b>Email:</b> GuitarrasVal@gmail.com
+
+            </p>
+            <p>
+                GuitarrasVal está situada en la calle del Rei En Jaume I, 2, 46470 Catarroja, Valencia
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.954188277163!2d-0.41491558489126645!3d39.40254247949584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e82a8672a35%3A0xed578f5f80fed685!2sFlorida%20Universitaria!5e0!3m2!1ses!2ses!4v1668162242216!5m2!1ses!2ses"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </article>
+
+    </section>
+    <footer>
+        <div>
+            <img src="img/facebook.png" alt="">
+            <img src="img/instagram.png" alt="">
+            <img src="img/gorjeo.png" alt="">
+        </div>
+        <div>
+            <p>© 2021 GuitarrasVal</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
