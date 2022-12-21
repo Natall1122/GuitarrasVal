@@ -1,98 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
-    <title>GuitarrasVal</title>
-    <link rel="stylesheet" href="estil.css">
-    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="guitarres.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 </head>
-<body class="degradat">
-    <header>        
-        <a href="#"><img src="img/logotipo.png" id="logoHeader" alt=""></a>
-        <h1>GUITARRASVAL</h1>
-        <div>
-            <a href="#"><img src="img/carro.png" alt=""></a>
-            <a href="#"><img src="img/perfil.png" alt=""></a>
-            <a href="#"><img src="img/castellano.png" alt=""></a>
-            <a href="#"><img src="img/valencia.png" alt=""></a>
+
+<body>
+
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-1"  style="background-color:black">
+          <a href="#"><img src="img/logotipo.png" id="logoHeader" alt=""></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio   |</a></li>
-                <li><a href="comprar.html">Comprar   |</a></li>
-                <li><a href="alquiler.html">Alquiler   |</a></li>
-                <li><a href="taller.html">Taller Reparación </a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <div id="contenedorOpacity"></div>
-        <article id="index">
 
-            <h2>¡Bienvenido a GuitarrasVal!</h2>
-            <p>En GuitarrasVal encontrarás todo lo que necesitas para tu guitarra, desde guitarras nuevas y de segunda mano, hasta accesorios y repuestos. <br>¡¡¡Puedes comprar o alquilar las guitarras!!! <br>Además, contamos con un taller de reparación de guitarras y amplificadores, donde podrás llevar tu guitarra para que la arreglemos o le hagamos un mantenimiento.</p>
-            <p>¡No dudes en visitarnos!</p>
-            <p>¡Te esperamos!</p>
+        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-6"  style="background-color:black">
+          <h1>GUITARRASVAL</h1>
+        </div>
 
-            <div class="imatgesInici">
-                <img src="img/inici2.jpg" alt="">
-                <img src="img/inici1.jpeg" alt="">
+
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-5"  style="background-color:black">
+          <div>
+            <a href="#"><img src="img/carro.png" alt="carro compra"></a>
+            <a href="#"><img src="img/perfil.png" alt="el teu perfil"></a>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle text-light" type="button" id="dropdown1" data-bs-toggle="dropdown"
+                alt="idioma">
+                Idioma
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" alt="castella" href="clasica.html">Castellà</a>
+                <a class="dropdown-item" alt="angles" href="acustica.html">Anglés</a>
+              </div>
             </div>
-        </article>
-
-        <article id="apartats">
-
-            <div id="contenedorsApartats">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-
-            <article id="apartat1">
-                <a href="comprar.html"><img src="img/comprar.jpeg" alt=""></a>
-                <h3>COMPRA</h3>
-                <p>
-                    En GuitarrasVal encontrarás una gran variedad de guitarras, desde guitarras eléctricas, acústicas, clásicas, españolas, etc.
-                </p>
-                <a href="comprar.html"><button href="comprar.html">Más información</button></a>
-            </article>
-
-            
-            <article id="apartat2">
-                <a href="alquiler.html"><img src="img/alquilar.jpeg" alt=""></a>
-                <h3>ALQUILA</h3>
-                <p>
-                    En GuitarrasVal puedes alquilar una guitarra por un precio muy económico. <br>¡No esperes más y alquila ya!
-                </p>
-                <a href="alquiler.html"><button href="alquiler.html">Más información</button></a>
-            </article>
-
-            <article id="apartat3">
-                <a href="taller.html"><img src="img/taller.jpeg" alt=""></a>
-                <h3>TALLER REPARACIÓN</h3>
-                <p>
-                    En nuestro taller de reparación de guitarras y amplificadores, podrás llevar tu guitarra para que la arreglemos o le hagamos un mantenimiento.
-                </p>
-                <a href="taller.html"><button>Más información</button></a>
-            </article>
-
-        </article>
-
-    </section>
-    <footer>
-        <div>
-            <img src="img/facebook.png" alt="">
-            <img src="img/instagram.png" alt="">
-            <img src="img/gorjeo.png" alt="">
         </div>
-        <div>
-            <p>© 2021 GuitarrasVal</p>
         </div>
+      </div>
+    <div>
+      <nav class="navbar navbar-expand-sm navbar-light" style="background-color: black;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    </footer>
-    
+        <div class="collapse navbar-collapse" id="opciones">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="index.html" style="margin-left: 0.81em;" alt="Inici">Home</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn dropdown-toggle text-light" type="button" id="dropdown1" data-bs-toggle="dropdown"
+                  alt="Comprar">
+                  Comprar
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" alt="Guitarres clàsiques" href="clasica.html">Clàsica</a>
+                  <a class="dropdown-item" alt="Guitarres acústiques" href="acustica.html">Acústica</a>
+                  <a class="dropdown-item" alt="Guitarres elèctriques" href="electrica.html">Elèctrica</a>
+                  <a class="dropdown-item" alt="Bajos" href="bajos.html">Baix</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/quiSom.html" style="margin-left: 0.81em;" alt="Qui som">Qui som?</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
 </html>
