@@ -110,7 +110,15 @@ img[alt="3"]{
 
 
 /*              HEADER              */
-
+#header{
+    height: 12em; 
+    background-color: black;
+}
+#logo {
+    width: 11em;
+    height: 6em;
+    margin: 1em;
+}
 
 /*              FOOTER              */
 
@@ -119,8 +127,6 @@ footer{
     align-items: center;
     color: white;
     background-color: black;
-    position: relative;
-    width: 97.3%;
     left: -1em;
     bottom: -5em;
     overflow: hidden;
