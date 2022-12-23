@@ -114,10 +114,38 @@ img[alt="3"]{
     height: 12em; 
     background-color: black;
 }
+
 #logo {
     width: 11em;
     height: 6em;
     margin: 1em;
+}
+
+#titol{
+    margin: 1em;
+    justify-content: center;
+}
+
+#icons{
+    display: flex; 
+    padding: 2em;
+    justify-content: end;
+    padding-right: 5em;
+}
+img[alt="carro compra"]{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    position: relative;
+    top: -1em;
+}
+
+img[alt="el teu perfil"]{
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+    position: relative;
+    top: -0.5em;
 }
 
 /*              FOOTER              */
