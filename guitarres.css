@@ -28,6 +28,9 @@ ul{
     list-style: none;
 }
 
+/*              NAV                 */  
+
+
 
 
 /*              TÍTOLS              */
@@ -119,7 +122,7 @@ img[alt="3"]{
 
 #titol{
     margin: 1em;
-    justify-content: center;
+
 }
 
 #icons{
