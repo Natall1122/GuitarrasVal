@@ -2,24 +2,23 @@
 
 
 /*              LINKS              */
-a:link, a:visited, a:active, a:hover{
+#enllaç:link, a:visited, a:active, a:hover{
     font-weight: bold;
     text-decoration: none;
 }
-
-a:link{
-    color: #B53F00;  
+#enllaç:link{
+    color: #B53F00; 
 }
 
-a:visited{
+#enllaç:visited{
     color: #c17d58;
 }
 
-a:hover{
+#enllaç:hover{
     color: #F55600;
 }
 
-a:active{
+#enllaç:active{
     color: #752900;
 }
 
@@ -358,7 +357,7 @@ form fieldset input[type=submit]:hover {
     border: 2px solid #B53F00;
 }
 
-#apartats button:hover {
+#boto:hover {
     background-color: #B53F00;
     color: white;
 }
