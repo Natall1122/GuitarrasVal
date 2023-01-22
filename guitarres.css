@@ -28,11 +28,6 @@ ul{
     list-style: none;
 }
 
-/*              NAV                 */  
-
-
-
-
 /*              TÍTOLS              */
 
 h1{
@@ -305,27 +300,17 @@ form fieldset input[type=submit]:hover {
 
 
 #contenedorOpacity{
-    padding: 2em;
-    margin: 2em;
+    margin: 3em;
     background-color: white;
-    position: absolute;
-    width: 50%;
-    height: 23em;
-    left: 20%;
-    top: 12em;
     opacity: 0.5;
     border-radius: 2%;
-    z-index:-1;
 }
 
 
 #index{
-    padding: 2em;
     margin: 2em;
+    padding: 2em;
     color: black;
-    width: 50%;
-    position: relative;
-    left: 15em;
 }
 
 #index img{
@@ -344,15 +329,12 @@ form fieldset input[type=submit]:hover {
 
 
 
-/*              ID APARTATS          */
+/*              CARDS          */
 
-#apartats{
-    padding: 2em;
-    margin: 2em;
-    position: relative;
-    top: 3em;
-    
+#opacity{
+    opacity: 0.8;
 }
+
 
 #apartats img{
     width: 12em;
@@ -361,71 +343,16 @@ form fieldset input[type=submit]:hover {
     margin-left: 4em;
 }
 
-#apartats h3{
-    color: black;
-    text-align: center;
-}
-
-#contenedorsApartats{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-#contenedorsApartats div{
-    background-color: white;
-    width: 25em;
-    height: 28em;
-    opacity: 0.5;
-    margin: 1em;
-}
-
 #apartats img:hover{
     opacity: 0.7;
 }
 
-#apartat1{
-    padding: 2em;
-    margin: 2em;
-    color: black;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 20em;
-    height: 20em;
-}
-
-#apartat2{
-    padding: 2em;
-    margin: 2em;
-    color: black;
-    position: absolute;
-    width: 20em;
-    height: 20em;
-    top: 2em;
-    left: 31em;
-}
-
-#apartat3{
-    padding: 2em;
-    margin: 2em;
-    color: black;
-    position: absolute;
-    width: 20em;
-    height: 20em;
-    top: 2em;
-    right: 1em;
-}
-
-#apartats button {
-    border: none;
-    padding: 16px 32px;
+#boto {
+    padding: 0.5em 1em;
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     position: relative;
-    left: 4em;
     background-color: white;
     color: #B53F00;
     border: 2px solid #B53F00;
