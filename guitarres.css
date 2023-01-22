@@ -156,6 +156,29 @@ img[alt="el teu perfil"]{
     background-color: black;
 }
 
+img[alt="facebook"]{
+    height: 2em;
+    width: 2em;
+}
+
+img[alt="instagram"]{
+    height: 2em;
+    width: 2em;
+}
+
+img[alt="twitter"]{
+    height: 2em;
+    width: 2em;
+}
+
+#text-footer{
+    color: #c17d58;
+}
+
+#text-footer b{
+    color: #B53F00;
+}
+
 /*
 footer img{
     float: left;
