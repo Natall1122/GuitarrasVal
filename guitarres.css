@@ -2,7 +2,7 @@
 
 
 /*              LINKS              */
-#enllaç:link, a:visited, a:active, a:hover{
+a:link, a:visited, a:active, a:hover{
     font-weight: bold;
     text-decoration: none;
 }
@@ -22,10 +22,15 @@
     color: #752900;
 }
 
+
+
 /*              LLISTES             */
 ul{
     list-style: none;
 }
+
+
+
 
 /*              TÍTOLS              */
 
@@ -73,7 +78,7 @@ body{
     background-color: white;
 }
 
-.vertical {
+/* .vertical {
     border-left: 5px solid #F55600;
     border-bottom: 5px solid #F55600;
     border-radius: 2%;
@@ -101,7 +106,7 @@ img[alt="2"]{
 
 img[alt="3"]{
     top: 57em;
-}
+} */
 
 
 
@@ -116,7 +121,6 @@ img[alt="3"]{
 
 #titol{
     margin: 1em;
-
 }
 
 #icons{
@@ -141,9 +145,10 @@ img[alt="el teu perfil"]{
     top: -0.5em;
 }
 
+
 /*              FOOTER              */
 
-footer{
+ footer{
     padding: 2em;
     margin-top: 5em;
     align-items: center;
@@ -151,11 +156,7 @@ footer{
     background-color: black;
 }
 
-footer > div{
-    display:  inline;
-    justify-content: space-between;
-}
-
+/*
 footer img{
     float: left;
     margin-left: 1em;
@@ -166,20 +167,111 @@ footer p{
     left: 30em;
     top: -0.5em;
     width: 20em;
-}
-#compra{
-    position: absolute;
-    bottom: -80em;
-    width: 96.85%;
-}
-
-#alquilar{
-    position: absolute;
-    bottom: -50em;
-    width: 96.85%;
-}
+} */
 
 
+/*          CONTENEDORS 4 APARTATS   */
+
+#clasiques{
+    background-image: url(img/clasica.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3.5%
+}
+
+#acustiques{
+    background-image: url(img/acustica.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3.5%
+}
+
+#electriques{
+    background-image: url(img/electrica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3.5%
+
+}
+
+#baixos{
+    background-image: url(img/baix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3.5%
+}
+
+#clasiques:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+#acustiques:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+#electriques:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+#baixos:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+
+#clasiques h2{
+    margin-left: 3.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em #F55600;
+
+}
+
+#acustiques h2{
+    margin-left: 3.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em #F55600;
+}
+
+#electriques h2{
+    margin-left: 3em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em #F55600;
+
+}
+
+#baixos h2{
+    margin-left: 6.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em #F55600;
+
+}
 
 
 
@@ -242,7 +334,7 @@ footer p{
     text-shadow: 1px 1px 2px black, 0 0 1em #F55600;
  }
 
-form{
+/* form{
     position: relative;
     top: 2em;
     left: 18em;
@@ -292,7 +384,7 @@ form fieldset input[type=submit]{
 form fieldset input[type=submit]:hover {
     background-color: white;
     color: #F55600;
-}
+} */
 
 
 /*              ID INDEX            */
@@ -312,15 +404,14 @@ form fieldset input[type=submit]:hover {
     color: black;
 }
 
-#index img{
+/* #index img{
     width: 30%;
     height: 30%;
     margin-left: 1em;
-}
+} */
 
 #index p{
     text-indent: 3em;
-    line-height: 1.5em;
     letter-spacing: 0.1em;
 }
 
@@ -335,7 +426,7 @@ form fieldset input[type=submit]:hover {
 }
 
 
-#apartats img{
+/* #apartats img{
     width: 12em;
     height: 12em;   
     display: block;
@@ -344,7 +435,7 @@ form fieldset input[type=submit]:hover {
 
 #apartats img:hover{
     opacity: 0.7;
-}
+} */
 
 #boto {
     padding: 0.5em 1em;
@@ -366,7 +457,7 @@ form fieldset input[type=submit]:hover {
 
 /*              ID CONTENEDOR         */
 
-.contenedor{
+/* .contenedor{
     padding: 2em;
     width: 90%;
 }
@@ -441,4 +532,4 @@ form fieldset input[type=submit]:hover {
     font-weight: bold;
     font-size: 1em;
     position: relative;
-}
+} */
