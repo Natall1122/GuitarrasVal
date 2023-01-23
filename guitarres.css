@@ -315,7 +315,7 @@ img[alt="logotipo empresa"] {
 #contenedorOpacity {
     margin: 3em;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.7;
     border-radius: 2%;
 }
 
@@ -325,12 +325,6 @@ img[alt="logotipo empresa"] {
     padding: 2em;
     color: black;
 }
-
-/* #index img{
-    width: 30%;
-    height: 30%;
-    margin-left: 1em;
-} */
 
 #index p {
     text-indent: 3em;
@@ -354,10 +348,10 @@ img[alt="logotipo empresa"] {
     display: block;
     margin-left: 4em;
 }
-
-#apartats img:hover{
+*/
+.card img:hover{
     opacity: 0.7;
-} */
+} 
 
 .card-text{
     text-indent: 2em;
