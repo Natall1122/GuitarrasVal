@@ -385,36 +385,6 @@ img[alt="logotipo empresa"] {
 
 /*              ID CONTENEDOR         */
 
-/* .contenedor{
-    padding: 2em;
-    width: 90%;
-}
-
-.ubi{
-    position: relative;
-    top: -0.5em;
-    left: 1em;
-    font-size: 0.8em;
-    width: 20em;
-}
-
-.filtros{
-    margin: 2em;
-    width: 15%;
-    height: 25em;
-    overflow: scroll;
-    overflow-x: hidden;
-    float: left;
-    margin-top: 0em;
-}
-
-
-.tres div p{
-    line-height: 1.5em;
-    letter-spacing: 0.1em;
-    margin-left: 4em;
-}
-*/
 .tres img:hover{
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -441,4 +411,17 @@ img[alt="logotipo empresa"] {
     color: white;
     border: #B53F00 ;
 
+}
+
+.incorrecto {
+    text-decoration:line-through;
+    color: red;
+}
+
+
+.ubi{
+    position: relative;
+    top: -0.5em;
+    left: 1em;
+    font-size: 0.8em;
 }
