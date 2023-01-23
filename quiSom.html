@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GuitarrasVal</title>
-    <link rel="stylesheet" href="guitarres.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
-    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuitarrasVal</title>
+  <link rel="stylesheet" href="guitarres.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
 </head>
+
 <body>
   <header>
     <div class="container-fluid" style="background-color:black">
@@ -50,10 +53,12 @@
                   <a class="nav-link" id="enllaç" href="index.html" style="margin-left: 0.81em;" alt="Inici">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="enllaç" href="comprar.html" style="margin-left: 0.81em;" alt="Comprar">Comprar</a>
+                  <a class="nav-link" id="enllaç" href="comprar.html" style="margin-left: 0.81em;"
+                    alt="Comprar">Comprar</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="enllaç" href="quiSom.html" style="margin-left: 0.81em;" alt="Qui som">Quiénes somos?</a>
+                  <a class="nav-link" id="enllaç" href="quiSom.html" style="margin-left: 0.81em;" alt="Qui som">Quiénes
+                    somos?</a>
                 </li>
 
               </ul>
@@ -68,12 +73,115 @@
   <section>
     <div class="container" style="margin-top: 5em;">
       <div class="jumbotron" id="fotoFondo">
-          <h1 style="color: white; margin-left: 2em">QUI SOM??</h1>
-          <p>
-            Somos una empresa dedicada a la venta de guitarras y accesorios musicales desde hace 20 años en la ciudad de València y que estamos especializados en guitarras clásicas, acústicas y eléctricas de todos los estilos y marcas del mercado musical actual.
-          </p>
+        <h1 style="color: white; margin-left: 2em">QUI SOM??</h1>
+        <p>
+          Somos una empresa dedicada a la venta de guitarras y accesorios musicales desde hace 20 años en la ciudad de
+          València y que estamos especializados en guitarras clásicas, acústicas y eléctricas de todos los estilos y
+          marcas del mercado musical actual.
+        </p>
       </div>
     </div>
+  </section>
+
+
+
+  <section>
+
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-xl-8 col-lg-8 col-md-10 col-sm-10">
+
+          <h2 class="mb-5 mt-5">FORMULARIO DE CONTACTO</h2>
+
+          <form>
+
+            <div class="container">
+              <div class="row justify-content-between">
+
+                <div class="col-xl-5 col-lg-5 col-md-8 col-sm-12">
+                  <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="input" name="nombre">
+                  </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-7 col-md-10 col-sm-12">
+                  <div class="mb-3">
+                    <label for="apellidos" class="form-label">Apellidos:</label>
+                    <input type="text" class="form-control" id="input" name="apellidos">
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="row justify-content-around">
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="input" name="email">
+                  </div>
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                  <div class="mb-3">
+                    <label for="ciudad" class="form-label">Ciudad:</label>
+                    <input type="text" class="form-control" id="input" name="ciudad">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row justify-content-around">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                  <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono:</label>
+                    <input type="tel" class="form-control" id="input" name="telefono">
+                  </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+
+                  <label for="control1" class="form-label">Asunto</label>
+                  <select class="form-select" id="input" name="control1">
+                    <option selected>-Seleccione una opción- </option>
+                    <option>Quiero reparar mi guitarra</option>
+                    <option>Quiero preguntar detalles sobre un producto</option>
+                    <option>Quiero hacer una devolución</option>
+                    <option>Quiero poner una queja</option>
+                  </select>
+                </div>
+                
+              </div>
+
+              <div class="row">
+
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-5">
+                  <label for="comentarios" class="form-label">Desarrolle el asunto</label>
+                  <textarea class="form-control" rows="5" id="input" name="comentarios"></textarea>
+                </div>
+
+              </div>
+
+              <div class="row">
+
+                <div class="mb-5 mt-5">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">Quiero recibir correos con ofertas</label>
+                  </div>
+                </div>
+
+              </div>
+              <input type="button" id="formbutton" value="Enviar">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
   </section>
 
   <footer>
@@ -84,7 +192,8 @@
           <ul class="list-unstyled">
             <li><a href="/quiSom.html" id="enllaç" alt="Qui som">Qui som?</a></li>
             <li><a href="/contacte.html" id="enllaç" alt="Contacte">Contacte</a></li>
-            <li><a href="/politicaPrivacitat.html" id="enllaç" alt="Política de privacitat">Política de privacitat</a></li>
+            <li><a href="/politicaPrivacitat.html" id="enllaç" alt="Política de privacitat">Política de privacitat</a>
+            </li>
           </ul>
         </div>
 
@@ -93,7 +202,8 @@
           <ul class="list-unstyled">
             <li><a href="/quiSom.html" id="enllaç" alt="Qui som">Qui som?</a></li>
             <li><a href="/contacte.html" id="enllaç" alt="Contacte">Contacte</a></li>
-            <li><a href="/politicaPrivacitat.html" id="enllaç" alt="Política de privacitat">Política de privacitat</a></li>
+            <li><a href="/politicaPrivacitat.html" id="enllaç" alt="Política de privacitat">Política de privacitat</a>
+            </li>
           </ul>
         </div>
 
@@ -102,7 +212,8 @@
           <ul class="list-unstyled">
             <li><a href="/quiSom.html" id="enllaç" alt="Qui som">Qui som?</a></li>
             <li><a href="/contacte.html" id="enllaç" alt="Contacte">Contacte</a></li>
-            <li><a href="/politicaPrivacitat.html" id="enllaç" alt="Política de privacitat">Política de privacitat</a></li>
+            <li><a href="/politicaPrivacitat.html" id="enllaç" alt="Política de privacitat">Política de privacitat</a>
+            </li>
           </ul>
         </div>
 
@@ -111,13 +222,17 @@
           <ul class="list-unstyled">
             <li><a href="/quiSom.html" id="enllaç" alt="Qui som">Qui som?</a></li>
             <li><a href="/contacte.html" id="enllaç" alt="Contacte">Contacte</a></li>
-            <li><a href="/politicaPrivacitat.html"  id="enllaç" alt="Política de privacitat">Política de privacitat</a></li>
+            <li><a href="/politicaPrivacitat.html" id="enllaç" alt="Política de privacitat">Política de privacitat</a>
+            </li>
           </ul>
         </div>
       </div>
   </footer>
-    
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
 </html>

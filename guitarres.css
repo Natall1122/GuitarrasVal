@@ -57,11 +57,10 @@ h4{
 }
 
 h5{
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
-    color: #752900;
-    margin: 0em;
-    margin-bottom: 0em;
+    text-align: center;
+    color: #F55600;
 }
 
 
@@ -354,50 +353,18 @@ footer p{
 
 #fotoFondo p{
     position: relative;
-    top: 5em;
     left: 2em;
     color: white;
-    width: 50%;
+    width: 55%;
     font-size: 1em;
     text-shadow: 1px 1px 2px black, 0 0 1em #F55600;
  }
 
-/* form{
-    position: relative;
-    top: 2em;
-    left: 18em;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-
-form fieldset{
-    border: none;
-    margin-bottom: 4em;
-}
-
-form fieldset label{
-    position: relative;
-    left: 2em;
-}
-
-form fieldset input, form fieldset input + label{
-    margin-bottom: 0.5em;
-    padding: 0.5em;
-    position: relative;
-    left: 5em;
-}
-
-
-form fieldset input[type=text]{
-    width: 60%;
-    border-radius: 0.8em;
+#input{
     border: 1px solid #752900;
 }
 
-form fieldset input[type=submit]{
+#formbutton{
     width: 20%;
     border-radius: 0.8em;
     border: 1px solid #752900;
@@ -409,7 +376,7 @@ form fieldset input[type=submit]{
     left: 15em;
 }
 
-form fieldset input[type=submit]:hover {
+#formbutton:hover {
     background-color: white;
     color: #F55600;
 } */
