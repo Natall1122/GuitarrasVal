@@ -2,30 +2,34 @@
 
 
 /*              LINKS              */
-a:link, a:visited, a:active, a:hover{
+a:link,
+a:visited,
+a:active,
+a:hover {
     font-weight: bold;
     text-decoration: none;
 }
-#enllaç:link{
-    color: #B53F00; 
+
+#enllaç:link {
+    color: #B53F00;
 }
 
-#enllaç:visited{
+#enllaç:visited {
     color: #c17d58;
 }
 
-#enllaç:hover{
+#enllaç:hover {
     color: #F55600;
 }
 
-#enllaç:active{
+#enllaç:active {
     color: #752900;
 }
 
 
 
 /*              LLISTES             */
-ul{
+ul {
     list-style: none;
 }
 
@@ -34,29 +38,30 @@ ul{
 
 /*              TÍTOLS              */
 
-h1{
+h1 {
     font-size: 3em;
     color: white;
 }
 
-h2{
+h2 {
     font-size: 1.5em;
     color: #752900;
     font-weight: bold;
     text-align: center;
 }
 
-h3, h4{
+h3,
+h4 {
     font-size: 1.1em;
 }
 
-h4{
+h4 {
     font-weight: bold;
     color: #F55600;
     margin: 0em;
 }
 
-h5{
+h5 {
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -67,47 +72,15 @@ h5{
 
 /*              BODY                */
 
-.degradat{
-    background: linear-gradient(black 30%, #752900, #F55600 , white) no-repeat center;
+.degradat {
+    background: linear-gradient(black 30%, #752900, #F55600, white) no-repeat center;
 }
 
-body{
+body {
     font-size: 1em;
-    font-family: 'amiri', serif;
+    font-family: 'Amiri', serif;
     background-color: white;
 }
-
-/* .vertical {
-    border-left: 5px solid #F55600;
-    border-bottom: 5px solid #F55600;
-    border-radius: 2%;
-    height: 97em;
-    width: 70em;
-    position: absolute;
-    top: 46em;
-    left: 10em;
-}
-
-.vertical img{
-    width: 2.5em;
-    height: 2.5em;
-    position: absolute;
-    left: -1.4em;
-}
-
-img[alt="1"]{
-    top: -0.5em;
-}
-
-img[alt="2"]{
-    top: 38.7em;
-}
-
-img[alt="3"]{
-    top: 57em;
-} */
-
-
 
 
 /*              HEADER              */
@@ -118,17 +91,18 @@ img[alt="3"]{
     margin: 1em;
 }
 
-#titol{
+#titol {
     margin: 1em;
 }
 
-#icons{
-    display: flex; 
+#icons {
+    display: flex;
     padding: 2em;
     justify-content: end;
     padding-right: 5em;
 }
-img[alt="carro compra"]{
+
+img[alt="carro compra"] {
     width: 3em;
     height: 3em;
     margin: 1em;
@@ -136,7 +110,7 @@ img[alt="carro compra"]{
     top: -1em;
 }
 
-img[alt="el teu perfil"]{
+img[alt="el teu perfil"] {
     width: 2em;
     height: 2em;
     margin: 1em;
@@ -147,7 +121,7 @@ img[alt="el teu perfil"]{
 
 /*              FOOTER              */
 
- footer{
+footer {
     padding: 2em;
     margin-top: 5em;
     align-items: center;
@@ -155,51 +129,31 @@ img[alt="el teu perfil"]{
     background-color: black;
 }
 
-img[alt="facebook"]{
-    height: 2em;
-    width: 2em;
-}
-
-img[alt="instagram"]{
-    height: 2em;
-    width: 2em;
-}
-
-img[alt="twitter"]{
-    height: 2em;
-    width: 2em;
-}
-
-img[alt="logotipo empresa"]{
+img[alt="logotipo empresa"] {
     height: 3.5em;
     width: 3.5em;
 }
 
-#text-footer{
+#text-footer {
     color: #c17d58;
 }
 
-#text-footer b{
+#text-footer b {
     color: #B53F00;
 }
 
-/*
-footer img{
-    float: left;
-    margin-left: 1em;
+#copyright{
+    font-size: 0.7em;
+    color: lightgray;
+    margin-top: 2.5%;
+    
 }
 
-footer p{
-    position: relative;
-    left: 30em;
-    top: -0.5em;
-    width: 20em;
-} */
 
 
 /*          CONTENEDORS 4 APARTATS   */
 
-#clasiques{
+#clasiques {
     background-image: url(img/clasica.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +161,7 @@ footer p{
     border-radius: 3.5%
 }
 
-#acustiques{
+#acustiques {
     background-image: url(img/acustica.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,16 +169,15 @@ footer p{
     border-radius: 3.5%
 }
 
-#electriques{
+#electriques {
     background-image: url(img/electrica.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 3.5%
-
 }
 
-#baixos{
+#baixos {
     background-image: url(img/baix.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,7 +185,7 @@ footer p{
     border-radius: 3.5%
 }
 
-#clasiques:hover{
+#clasiques:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -241,7 +194,7 @@ footer p{
     transition-duration: 0.5s;
 }
 
-#acustiques:hover{
+#acustiques:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -250,7 +203,7 @@ footer p{
     transition-duration: 0.5s;
 }
 
-#electriques:hover{
+#electriques:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -259,7 +212,7 @@ footer p{
     transition-duration: 0.5s;
 }
 
-#baixos:hover{
+#baixos:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -269,7 +222,7 @@ footer p{
 }
 
 
-#clasiques h2{
+#clasiques h2 {
     margin-left: 30%;
     font-weight: bold;
     color: white;
@@ -277,14 +230,14 @@ footer p{
 
 }
 
-#acustiques h2{
+#acustiques h2 {
     margin-left: 25%;
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em #F55600;
 }
 
-#electriques h2{
+#electriques h2 {
     margin-left: 20%;
     font-weight: bold;
     color: white;
@@ -292,7 +245,7 @@ footer p{
 
 }
 
-#baixos h2{
+#baixos h2 {
     margin-left: 170%;
     font-weight: bold;
     color: white;
@@ -304,45 +257,8 @@ footer p{
 
 /*              FORM                */
 
-#taller{
-    padding: 2em;
-    margin: 2em;
-    position: absolute;
-    width: 50%;
-    left: 20%;    
-    top: 3em;
-}
-
-#contacto{
-    padding: 2em;
-    margin: 2em;
-    position: relative;
-    width: 50%;
-    left: 20%;  
-}
-
-
-#taller p{
-    text-indent: 3em;
-    line-height: 1.5em;
-    letter-spacing: 0.1em;
-}
-
-
-#contenedorOpacity2{
-    padding: 2em;
-    background-color: white;
-    position: relative;
-    width: 55%;
-    height: 18em;
-    left: 20%;
-    top: 5.5em;
-    opacity: 0.7;
-    border-radius: 4%;
-}
-
-#fotoFondo{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("img/guitarres/taller/1.jpg");
+#fotoFondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/guitarres/taller/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -351,20 +267,25 @@ footer p{
     border-radius: 0.5em;
 }
 
-#fotoFondo p{
+#fotoFondo p {
     position: relative;
     left: 2em;
     color: white;
     width: 55%;
     font-size: 1em;
     text-shadow: 1px 1px 2px black, 0 0 1em #F55600;
- }
+}
 
-#input{
+#input {
     border: 1px solid #752900;
 }
 
-#formbutton{
+#input:focus {
+    border-color: #F55600;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #752900;
+}
+
+#formbutton {
     width: 20%;
     border-radius: 0.8em;
     border: 1px solid #752900;
@@ -372,20 +293,26 @@ footer p{
     color: white;
     font-weight: bold;
     font-size: 1.2em;
-    position: relative;
-    left: 15em;
 }
 
 #formbutton:hover {
     background-color: white;
     color: #F55600;
-} */
+}
+
+.vertical {
+    border-left: 5px solid #F55600;
+    border-bottom: 5px solid #F55600;
+    border-radius: 2%;
+    padding-bottom: 5em;
+}
+
 
 
 /*              ID INDEX            */
 
 
-#contenedorOpacity{
+#contenedorOpacity {
     margin: 3em;
     background-color: white;
     opacity: 0.5;
@@ -393,7 +320,7 @@ footer p{
 }
 
 
-#index{
+#index {
     margin: 2em;
     padding: 2em;
     color: black;
@@ -405,7 +332,7 @@ footer p{
     margin-left: 1em;
 } */
 
-#index p{
+#index p {
     text-indent: 3em;
     letter-spacing: 0.1em;
 }
@@ -416,7 +343,7 @@ footer p{
 
 /*              CARDS          */
 
-#opacity{
+#opacity {
     opacity: 0.8;
 }
 
@@ -431,6 +358,12 @@ footer p{
 #apartats img:hover{
     opacity: 0.7;
 } */
+
+.card-text{
+    text-indent: 2em;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+}
 
 #boto {
     padding: 0.5em 1em;
@@ -475,39 +408,13 @@ footer p{
     margin-top: 0em;
 }
 
-.productes{
-    padding: 2em;
-    position: absolute;
-    width: 65%;
-    left: 20%;
-    top: 12em;
-}
-
-.tres{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    position: relative;
-    top: 1em;
-}
-
-.tres img{
-    width: 11.5em;
-    height: 22.8em;   
-}
-
-.tres div{
-    width: 13em;
-    height: 23.58em;
-    margin-bottom: 10em;
-}
 
 .tres div p{
     line-height: 1.5em;
     letter-spacing: 0.1em;
     margin-left: 4em;
 }
-
+*/
 .tres img:hover{
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -518,7 +425,7 @@ footer p{
     border: 1px solid #752900;
 }
 
-.tres > div button{
+.tres a{
     width: 11em;
     border-radius: 0.8em;
     border: 1px solid #752900;
@@ -527,4 +434,11 @@ footer p{
     font-weight: bold;
     font-size: 1em;
     position: relative;
-} */
+} 
+
+.tres a:hover{
+    background-color: #B53F00;
+    color: white;
+    border: #B53F00 ;
+
+}
