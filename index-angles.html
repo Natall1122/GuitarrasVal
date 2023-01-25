@@ -73,30 +73,52 @@
   <section>
 
     <div class="container mt-3">
-      <div class="row">
+      <div class="row justify-content-center" style="height: 30em;">
 
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-          <div id="contenedorOpacity">
-            <article id="index">
-
-              <h2>¡Welcome to GuitarrasVal!</h2>
-              <p class="lh-lg">At GuitarrasVal you will find everything you need for your guitar, from new and second hand guitars to accessories and spare parts.<br>You can buy or rent guitars!!!! <br>In addition, contamos con un taller de reparación de guitarras y amplificadores, donde podrás llevar tu guitarra para que la or have it serviced and repaired.</p>
-              <p>Don't hesitate to visit us!</p>
-              <p> We are waiting for you!</p>
-              <h5>Pim ! Pam ! GuitarrasVal !</h5>
-              <div class="imatgesInici">
-                <!--                 <img src="img/inici2.jpg" alt="">
-                <img src="img/inici1.jpeg" alt=""> -->
-              </div>
-            </article>
-          </div>
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+          <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" 
+                      name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="img/carrusel1.jpg" alt="Guitarra acústica">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="img/carrusel20.jpg" alt="hombre en el taller probando una nueva guitarra">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="img/carrusel3.jpg" alt="grupo de amigos disfrutando de la música">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
         </div>
       </div>
     </div>
+    </div>
 
-    <div class="container">
+    <div class="container mt-5">
       <div class="row">
-        <div class="col-md mt-2">
+        <div class="col-md mt-5">
           <div class="card text-center" style="height: 30em;" id="opacity">
             <div class="card-body">
               <a href="comprar.html"><img class="card-img-top" src="img/shop.jpg" alt="guitarras en tienda"></a>
@@ -107,7 +129,7 @@
           </div>
         </div>
 
-        <div class="col-md mt-2">
+        <div class="col-md mt-5">
           <div class="card text-center" style="height: 30em;" id="opacity">
             <div class="card-body">
               <a href="clasica.html"><img class="card-img-top" src="img/ofertas.jpg" alt="ofertas"></a>
@@ -120,7 +142,7 @@
           </div>
         </div>
 
-        <div class="col-md mt-2">
+        <div class="col-md mt-5">
           <div class="card text-center" style="height: 30em;" id="opacity">
             <div class="card-body">
               <a href="quiSom.html"><img class="card-img-top" src="img/quisom.jpg" alt="empleado haciendo una guitarra"></a>

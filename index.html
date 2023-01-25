@@ -51,7 +51,7 @@
             <div class="collapse navbar-collapse navbar-light" id="opciones">
               <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" id="enllaç" href="index.html" style="margin-left: 0.81em;" >Inicio</a>
+                  <a class="nav-link" id="enllaç" href="index.html" style="margin-left: 0.81em;">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="enllaç" href="comprar.html" style="margin-left: 0.81em;">Comprar</a>
@@ -74,64 +74,84 @@
   <section>
 
     <div class="container mt-3">
-      <div class="row">
+      <div class="row justify-content-center" style="height: 30em;">
 
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-          <div id="contenedorOpacity">
-            <article id="index">
-
-              <h2>¡Bienvenido a GuitarrasVal!</h2>
-              <p class="lh-lg">En GuitarrasVal encontrarás todo lo que necesitas para tu guitarra, desde guitarras
-                nuevas y de segunda
-                mano, hasta accesorios y repuestos. <br>¡¡¡Puedes comprar o alquilar las guitarras!!! <br>Además,
-                contamos
-                con un taller de reparación de guitarras y amplificadores, donde podrás llevar tu guitarra para que la
-                arreglemos o le hagamos un mantenimiento.</p>
-              <p>¡No dudes en visitarnos!</p>
-              <p>¡Te esperamos!</p>
-              <h5>Pim ! Pam ! GuitarrasVal !</h5>
-            </article>
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+          <div class="slide">
+            <div class="slide-inner">
+              <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                checked="checked">
+              <div class="slide-item">
+                <img src="img/carrusel1.jpg" alt="Guitarra acústica">
+              </div>
+              <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+              <div class="slide-item">
+                <img src="img/carrusel20.jpg" alt="hombre en el taller probando una nueva guitarra">
+              </div>
+              <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+              <div class="slide-item">
+                <img src="img/carrusel3.jpg" alt="grupo de amigos disfrutando de la música">
+              </div>
+              <label for="slide-3" class="slide-control prev control-1">‹</label>
+              <label for="slide-2" class="slide-control next control-1">›</label>
+              <label for="slide-1" class="slide-control prev control-2">‹</label>
+              <label for="slide-3" class="slide-control next control-2">›</label>
+              <label for="slide-2" class="slide-control prev control-3">‹</label>
+              <label for="slide-1" class="slide-control next control-3">›</label>
+              <ol class="slide-indicador">
+                <li>
+                  <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                  <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                  <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md mt-2">
-          <div class="card text-center" style="height: 30em;" id="opacity">
-            <div class="card-body">
-              <a href="comprar.html"><img class="card-img-top" src="img/shop.jpg" alt="guitarras en tienda"></a>
-              <h3 class="card-title mt-3">COMPRAR</h3>
-              <p class="card-text">En GuitarrasVal encontrarás una gran variedad de guitarras, desde guitarras
-                eléctricas, acústicas, clásicas, españolas</p>
-              <a href="comprar.html" class="btn" id="boto">Comprar</a>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md mt-5">
+            <div class="card text-center" style="height: 30em;" id="opacity">
+              <div class="card-body">
+                <a href="comprar.html"><img class="card-img-top" src="img/shop.jpg" alt="guitarras en tienda"></a>
+                <h3 class="card-title mt-3">COMPRAR</h3>
+                <p class="card-text">En GuitarrasVal encontrarás una gran variedad de guitarras, desde guitarras
+                  eléctricas, acústicas, clásicas, españolas</p>
+                <a href="comprar.html" class="btn" id="boto">Comprar</a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md mt-2">
-          <div class="card text-center" style="height: 30em;" id="opacity">
-            <div class="card-body">
-              <a href="clasica.html"><img class="card-img-top" src="img/ofertas.jpg" alt="ofertas"></a>
-              <h3 class="card-title mt-3">OFERTAS</h3>
-              <p class="card-text">
-                Aquí podrás encontrar nuestras mejores ofertas de nuestros mejores productos. ¡¡ No esperes que se
-                terminaran!!
-              </p>
-              <a href="clasica.html" class="btn" id="boto">Ofertas</a>
+          <div class="col-md mt-5">
+            <div class="card text-center" style="height: 30em;" id="opacity">
+              <div class="card-body">
+                <a href="clasica.html"><img class="card-img-top" src="img/ofertas.jpg" alt="ofertas"></a>
+                <h3 class="card-title mt-3">OFERTAS</h3>
+                <p class="card-text">
+                  Aquí podrás encontrar nuestras mejores ofertas de nuestros mejores productos. ¡¡ No esperes que se
+                  terminaran!!
+                </p>
+                <a href="clasica.html" class="btn" id="boto">Ofertas</a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md mt-2">
-          <div class="card text-center" style="height: 30em;" id="opacity">
-            <div class="card-body">
-              <a href="quiSom.html"><img class="card-img-top" src="img/quisom.jpg" alt="empleado haciendo una guitarra"></a>
-              <h3 class="card-title mt-3">QUIENES SOMOS</h3>
-              <p class="card-text"> Somos una empresa dedicada a la venta de guitarras.
-                Especializados en guitarras clásicas, acústicas y eléctricas </p>
-              <a href="quiSom.html" class="btn" id="boto">Más info</a>
+          <div class="col-md mt-5">
+            <div class="card text-center" style="height: 30em;" id="opacity">
+              <div class="card-body">
+                <a href="quiSom.html"><img class="card-img-top" src="img/quisom.jpg"
+                    alt="empleado haciendo una guitarra"></a>
+                <h3 class="card-title mt-3">QUIENES SOMOS</h3>
+                <p class="card-text"> Somos una empresa dedicada a la venta de guitarras.
+                  Especializados en guitarras clásicas, acústicas y eléctricas </p>
+                <a href="quiSom.html" class="btn" id="boto">Más info</a>
+              </div>
             </div>
           </div>
         </div>
